@@ -1,0 +1,52 @@
+@import "../styles/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 18 11;
+    --foreground: 242 232 215;
+  }
+
+  body {
+    background-color: var(--color-deep-bg, #1E120B);
+    color: var(--color-cream, #f2e8d7);
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #a96c40;
+    color: #fff7ea;
+  }
+}
+
+/* Custom scrollbar matching warm coffee brown theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E120B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A3022;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a96c40;
+}
+
+/* Scoped non-draggable visual asset protection */
+.kavero-nondraggable-image,
+img.kavero-nondraggable-image {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

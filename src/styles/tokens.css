@@ -1,0 +1,22 @@
+:root {
+  /* Brand Primary Colors - Exact KAVERO Luxury Estate Palette */
+  --color-deep-espresso: #140D09;
+  --color-espresso: #21140E;
+  --color-warm-surface: #2A1A12;
+  --color-forest: #294736;
+  --color-forest-deep: #16241A;
+  --color-warm-cream: #F2E8D7;
+  --color-light-heading: #F5E8D7;
+  --color-copper: #A96C40;
+  --color-copper-light: #C28B5E;
+  --color-muted-copy: #C7B2A1;
+  --color-subtle-border: #4A3022;
+  --color-card-border: #3E2619;
+  --color-roasted-red: #8A3F35;
+
+  /* Semantic Aliases for Backwards Compatibility */
+  --color-deep-bg: var(--color-deep-espresso);
+  --color-card-bg: var(--color-warm-surface);
+  --color-cream: var(--color-warm-cream);
+  --color-secondary-text: var(--color-muted-copy);
+}

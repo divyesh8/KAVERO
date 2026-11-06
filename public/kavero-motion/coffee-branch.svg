@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 330">
+  <defs>
+    <linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#3e6242"/><stop offset=".55" stop-color="#1d412e"/><stop offset="1" stop-color="#102b21"/></linearGradient>
+    <radialGradient id="berry" cx=".35" cy=".25" r=".8"><stop stop-color="#d76744"/><stop offset=".6" stop-color="#932d2a"/><stop offset="1" stop-color="#541b1c"/></radialGradient>
+  </defs>
+  <path d="M343 10C300 87 245 115 182 161S61 264 7 314" fill="none" stroke="#5d6040" stroke-width="5"/>
+  <g fill="url(#leaf)" stroke="#466f48" stroke-width="1.5">
+    <path d="M263 108C210 47 160 55 146 83c-5 41 55 70 117 25Z"/>
+    <path d="M226 131c23-76 83-85 106-63 8 30-40 79-106 63Z"/>
+    <path d="M175 165C132 97 75 120 61 146c-3 37 58 59 114 19Z"/>
+    <path d="M133 211c-4-76 47-100 77-89 23 27-5 76-77 89Z"/>
+    <path d="M83 259C34 216 1 231 0 255c11 35 42 43 83 4Z"/>
+  </g>
+  <g fill="none" stroke="#83a16b" stroke-width="2" opacity=".6">
+    <path d="M146 83l117 25M226 131l106-63M61 146l114 19M133 211l77-89"/>
+  </g>
+  <g fill="url(#berry)">
+    <circle cx="180" cy="167" r="14"/><circle cx="207" cy="174" r="13"/><circle cx="193" cy="192" r="12"/><circle cx="159" cy="192" r="11"/><circle cx="123" cy="220" r="11"/>
+  </g>
+</svg>
